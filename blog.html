@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHero Tube</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header class="mx-5 lg:mx-10">
+        <!-- ----------------------navbar section-------------- -->
+        <div class="flex justify-between items-center my-6">
+            <div class="bg-base-100">
+                <img src="icon/Logo.png" alt="">
+            </div>
+            <div class="">
+                <button onclick="goHome()" class="text-lg font-medium bg-red-500 px-5 py-1 rounded-md text-white">Home</button>
+            </div>
+        </div>
+        <hr class="border-t-2">
+    </header>
+    <main class="mx-5 lg:mx-10">
+        <h2 class="text-center text-3xl font-bold my-8">Question and Answer</h2>
+        <div class="mb-10">
+            <h2 class="text-2xl font-semibold"><span class="text-orange-700">Q 1: </span>What is the scope of var, let, and const</h2>
+            <p><span class="text-blue-700 text-2xl font-semibold">Ans : </span><br>
+                <span class="text-purple-900 font-bold">var :</span> var declarations are globally and function scoped both. When we diclare a var in a function it's
+                scope work globally. <br>
+                <span class="text-purple-900 font-bold">let and const :</span> let and const are block scoped.if we declare a let or const in a function ,it will only
+                used into the function.it can't use golbally</p>
+            <h2 class="text-2xl font-semibold mt-7"><span class="text-orange-700">Q 2: </span>What is the use cases of null and undefined</h2>
+            <p><span class="text-blue-700 text-2xl font-semibold">Ans :</span><br>
+                <span class="text-purple-900 font-bold">Undefined :</span>Undefined means the variable has been declared, but its value has not been
+                assigned.The typeof() operator returns undefined for an undefined variable. <br>
+                <span class="text-purple-900 font-bold">null :</span>Null means an empty value or a blank value.The typeof() operator returns the type as an
+                    object for a variable whose value is assigned as null.
+            </p>
+            <h2 class="text-2xl font-semibold mt-7"><span class="text-orange-700">Q 3: </span>What is the mean of REST API?</h2>
+            <p><span class="text-blue-700 text-2xl font-semibold">Ans :</span> REST means representational state transfer.A REST API  is an application programming interface that conforms to the constraints of REST architectural style and allows for interaction with RESTful web services.</p>
+        </div>
+    </main>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
